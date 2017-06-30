@@ -1,6 +1,7 @@
+# -*- coding: utf-8 -*-
 from util import write, watch_video
 
-POSITION = "Sektor 4"
+POSITION = "Sektor 3"
 
 def run(rigtig_bogstav, hackername, hackerpass):
     write("B-HacK har netop oprettet en forbindelse til en sattelit fra {}.".format(POSITION), 0.5, False)

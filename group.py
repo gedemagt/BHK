@@ -11,6 +11,7 @@ class Group:
         self.posts.update({letter:post.run})
         
     def go(self, start=0):
+        print(chr(27) + "[2J")
         k = 0
         if start == 0:
             hackername, hackerpass = intro.run()

@@ -1,6 +1,7 @@
+# -*- coding: utf-8 -*-
 from util import write, watch_video
 
-POSITION = "Sektor 3"
+POSITION = "Sektor 2"
 
 def run(rigtig_bogstav, hackername, hackerpass):
     write("Er i der?")
@@ -17,7 +18,7 @@ def run(rigtig_bogstav, hackername, hackerpass):
 
     write("Nå, nej... Så var der ikke noget alligevel!", 0.5, False)
 
-    write("I kan finde BaHaX nede I {}".format(POSITION), 0.5, False)
+    write("I kan finde BaHaX nede I {}. Skynd jer derned...".format(POSITION), 0.5, False)
     write("Han har en b...", 0.5, False)
     write("]@¡  ± ¡} ... }@¡ £{@¡", 0.5, False)
     write("på..@}¡", 0.5, False)

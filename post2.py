@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from util import write, watch_video
 
 

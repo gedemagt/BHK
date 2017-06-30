@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from util import write, watch_video
 
 POSITION = "Sektor 1"
@@ -12,8 +13,8 @@ def run(rigtig_bogstav, hackername, hackerpass):
     write("Godt så!", 0.5, False)
     write("Skynd jer nu ned til {}!".format(POSITION), 0.5, False)
     write("Der vil i finde en fra vores gruppe!", 0.5, False)
-    write("Han spiller en video for jer. I skal huske rigtig godt efter hvad der sker i filmen.", 0.5, False)
-    write("Bagefter skal i skynde jer ind i et rum og prøve at finde det B-HacK har gemt!", 0.5, False)
+    #write("Han spiller en video for jer. I skal huske rigtig godt efter hvad der sker i filmen.", 0.5, False)
+    #write("Bagefter skal i skynde jer ind i et rum og prøve at finde det B-HacK har gemt!", 0.5, False)
     #write("Er i klar til at se videoen? (Tryk ENTER)")
 
     #watch_video()
