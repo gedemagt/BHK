@@ -10,4 +10,3 @@ g.add_post_letter(post3, "E")
 g.add_post_letter(post4, "J")
 g.go()
 
-

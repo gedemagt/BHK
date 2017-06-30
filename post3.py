@@ -1,5 +1,7 @@
 from util import write, watch_video
 
+POSITION = "Sektor 3"
+
 def run(rigtig_bogstav, hackername, hackerpass):
     write("Er i der?")
     write("Vi har fået skrevet et program der kan aflytte Dr. Slims computere.", 0.5, False)
@@ -15,22 +17,27 @@ def run(rigtig_bogstav, hackername, hackerpass):
 
     write("Nå, nej... Så var der ikke noget alligevel!", 0.5, False)
 
-    write("I kan finde BaHaX nede I sektor 5", 0.5, False)
+    write("I kan finde BaHaX nede I {}".format(POSITION), 0.5, False)
     write("Han har en b...", 0.5, False)
     write("]@¡  ± ¡} ... }@¡ £{@¡", 0.5, False)
     write("på..@}¡", 0.5, False)
-    write("Dårligt signal - forbindelse afbrudt!", 20, False)
+    write("Dårligt signal - forbindelse afbrudt!", 0.5, False)
+    write("", 1, False)
+    write("", 1, False)
+    write("", 1, False)
+    write("", 1, False)
+    write("", 1, False)
     
     write("Fik i overført filerne?! (ja, nej)")
     
-    bogstav = ""
+    k = ""
     
     if "ja" in k.lower():
         bogstav = write("Super, godt arbejde!")
     else:
         bogstav = write("Elendigt!, Nå, Jeg håber BaHaX gav jer det bogstav han havde på sig alligevel?")
     
-    while bogstav.lower() != rigtig_bogstav:
+    while bogstav.lower() != rigtig_bogstav.lower():
         bogstav = write("Det er forkert! Prøv igen?")
     write("Arh, det ser godt ud!", 0.5, False)
     return bogstav
